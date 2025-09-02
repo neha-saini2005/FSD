@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    form {
+      background: white;
+      margin: auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px;
+      width: 400px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    label {
+      display: inline-block;
+      width: 140px;
+      margin-top: 10px;
+      font-weight: bold;
+      color: #444;
+    }
+
+    input {
+      padding: 4px;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <h1>REGISTRATION FORM</h1>
+    <label for="name">First Name: </label>
+    <input type="text"><br>
+    <label for="name">Last Name: </label>
+    <input type="text"><br>
+    <label for="name">Father's Name: </label>
+    <input type="text"><br>
+    <label for="name">Mother's Name: </label>
+    <input type="text"><br>
+    <label for="name">Date of Birth: </label>
+    <input type="date"><br>
+    <label for="name">Email: </label>
+    <input type="text"><br>
+    <label for="name">Gender: </label>
+    <input type="radio" name="gender" id="m" value="male">Male
+    <input type="radio" name="gender" id="f" value="female">Female<br>
+    <label for="course">Choose Course: </label>
+    <select id="course" name="course">
+      <option value=" ">--- Select a Course ---</option>
+      <option value="cse ">Computer Science</option>
+      <option value=" ece">Electrical</option>
+      <option value="mech">Mechanical</option>
+      <option value=" it">Information technology</option>
+      <option value="civil">Civil</option>
+    </select><br>
+    <label for="name">Hobbies: </label>
+    <input type="checkbox" id="s" value="H">Singing
+    <input type="checkbox" id="d" value="H">Dancing
+    <input type="checkbox" id="r" value="H">Reading book
+    <input type="checkbox" id="p" value="H">Playing Cricket<br>
+    <label for="name">Address: </label>
+    <input type="text"><br>
+    <label for="name">Photo: </label>
+    <input type="text" placeholder="Choose file"> No file chosen<br>
+    <input type="submit" value="Submit"><br>
+  </form
+ </body>
+
+</html>
